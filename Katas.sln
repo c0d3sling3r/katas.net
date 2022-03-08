@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Stack", "Stack", "{B8E39487-F3A5-4FDB-91E9-468339871FDB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Katas.Stack", "Stack\Katas.Stack\Katas.Stack.csproj", "{F40064B1-7AFE-4E09-8473-135DFC398D64}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Katas.Stack.Tests", "Stack\Katas.Stack.Tests\Katas.Stack.Tests.csproj", "{71392EC9-B6D8-4CD9-8253-9BECDAD01B07}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F40064B1-7AFE-4E09-8473-135DFC398D64} = {B8E39487-F3A5-4FDB-91E9-468339871FDB}
+		{71392EC9-B6D8-4CD9-8253-9BECDAD01B07} = {B8E39487-F3A5-4FDB-91E9-468339871FDB}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F40064B1-7AFE-4E09-8473-135DFC398D64}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F40064B1-7AFE-4E09-8473-135DFC398D64}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F40064B1-7AFE-4E09-8473-135DFC398D64}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F40064B1-7AFE-4E09-8473-135DFC398D64}.Release|Any CPU.Build.0 = Release|Any CPU
+		{71392EC9-B6D8-4CD9-8253-9BECDAD01B07}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71392EC9-B6D8-4CD9-8253-9BECDAD01B07}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{71392EC9-B6D8-4CD9-8253-9BECDAD01B07}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{71392EC9-B6D8-4CD9-8253-9BECDAD01B07}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
