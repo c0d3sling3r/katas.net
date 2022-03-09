@@ -4,11 +4,11 @@ namespace Katas.Stack.Tests;
 
 public class TestRunner
 {
-    private readonly Stack _stack;
+    private readonly CustomStack<string> _stack;
     
     public TestRunner()
     {
-        _stack = new Stack();
+        _stack = new CustomStack<string>();
     }
     
     [Fact]
@@ -42,29 +42,33 @@ public class TestRunner
         Assert.Equal(0, _stack.Size);
     }
 
-    [Fact]
-    public void Peek_MustReturnTheLastOneButBNotRemovingIt()
+    [Theory]
+    [InlineData("C", 3, "A", "B", "C" )]
+    [InlineData("B", 2, "A", "B" )]
+    [InlineData("D", 4, "A", "B", "C", "D" )]
+    public void Peek_MustReturnTheLastOneButBNotRemovingIt(string expectedPeekedOne, int expectedSize, params string[] elements)
     {
         // Arrange
-        _stack.Push("first");
-        _stack.Push("second");
-        _stack.Push("third");
-        
+        foreach (string element in elements)
+            _stack.Push(element);
+
         // Action
         object peekedOne = _stack.Peek();
         
         // Assertion
-        Assert.Equal("third", peekedOne);
-        Assert.Equal(3, _stack.Size);
+        Assert.Equal(expectedPeekedOne, peekedOne);
+        Assert.Equal(expectedSize, _stack.Size);
     }
 
-    [Fact]
-    public void PeekTwice_MustTwoResultsBeTheSame()
+    [Theory]
+    [InlineData("A", "B", "C")]
+    [InlineData("A", "B")]
+    [InlineData("A", "B", "C", "D")]
+    public void PeekTwice_MustTwoResultsBeTheSame(params string[] elements)
     {
         // Arrange
-        _stack.Push("first");
-        _stack.Push("second");
-        _stack.Push("third");
+        foreach (string element in elements)
+            _stack.Push(element);
         
         // Action
         object peekedOne = _stack.Peek();
