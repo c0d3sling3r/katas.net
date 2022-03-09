@@ -1,25 +1,23 @@
-﻿using System.Linq.Expressions;
+﻿namespace Katas.Stack;
 
-namespace Katas.Stack;
-
-public class Stack
+public class CustomStack<T>
 {
-    private object[] _elements;
+    private T[] _elements;
 
     public bool IsEmpty => Size == 0;
 
     public int Size { get; private set; }
 
-    public Stack()
+    public CustomStack()
     {
-        _elements = new object[0];
+        _elements = new T[0];
     }
 
-    public void Push(object element)
+    public void Push(T element)
     {
         ++Size;
 
-        object[] newElements = new object[Size];
+        T[] newElements = new T[Size];
 
         for (int i = 0; i < Size; i++)
         {
@@ -32,12 +30,12 @@ public class Stack
         _elements = newElements;
     }
 
-    public object Pop()
+    public T Pop()
     {
         int popElementIndex = --Size;
-        object element = _elements[popElementIndex];
+        T element = _elements[popElementIndex];
 
-        object[] newElements = new object[Size];
+        T[] newElements = new T[Size];
         
         for (int i = 0; i < Size; i++)
         {
@@ -49,10 +47,10 @@ public class Stack
         return element;
     }
 
-    public object Peek()
+    public T Peek()
     {
         int lastElementIndex = Size - 1;
-        object element = _elements[lastElementIndex];
+        T element = _elements[lastElementIndex];
 
         return element;
     }
