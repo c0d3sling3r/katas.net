@@ -59,6 +59,22 @@ public class TestRunner
     }
 
     [Fact]
+    public void PeekTwice_MustTwoResultsBeTheSame()
+    {
+        // Arrange
+        _stack.Push("first");
+        _stack.Push("second");
+        _stack.Push("third");
+        
+        // Action
+        object peekedOne = _stack.Peek();
+        object peekedTwo = _stack.Peek();
+        
+        // Assertion
+        Assert.Equal(peekedOne, peekedTwo);
+    }
+
+    [Fact]
     public void PushOncePopTwice_ExceptionMustBeThrown()
     {
         // Action

@@ -17,8 +17,19 @@ public class Stack
 
     public void Push(object element)
     {
-        Array.Resize(ref _elements, ++Size);
-        _elements[Size - 1] = element;
+        ++Size;
+
+        object[] newElements = new object[Size];
+
+        for (int i = 0; i < Size; i++)
+        {
+            if (i != Size - 1)
+                newElements[i] = _elements[i];
+        }
+        
+        newElements[Size - 1] = element;
+
+        _elements = newElements;
     }
 
     public object Pop()
