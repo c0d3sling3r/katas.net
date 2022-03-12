@@ -31,6 +31,9 @@ public class CustomQueue<T>
 
     public T Dequeue()
     {
+        if (Size == 0)
+            throw new DequeueFromEmptyQueueException();
+        
         --Size;
 
         T dequeuedElement = _elements[0];
@@ -45,5 +48,12 @@ public class CustomQueue<T>
         _elements = newElements;
 
         return dequeuedElement;
+    }
+
+    public T Peek()
+    {
+        T element = _elements[0];
+
+        return element;
     }
 }
