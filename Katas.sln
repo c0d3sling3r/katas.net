@@ -8,15 +8,15 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Katas.Stack.Tests", "Stack\
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Queue", "Queue", "{F8431AD0-16DF-45B6-9B60-DC58343EFF18}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Katas.Queue", "Katas.Queue\Katas.Queue.csproj", "{8C700027-7309-4E0A-B85F-AE3BE54C7C60}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Katas.Queue", "Queue\Katas.Queue\Katas.Queue.csproj", "{8C700027-7309-4E0A-B85F-AE3BE54C7C60}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Katas.Queue.Tests", "Katas.Queue.Tests\Katas.Queue.Tests.csproj", "{270C97DF-B4B4-48C7-B1E1-1B7741F56324}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Katas.Queue.Tests", "Queue\Katas.Queue.Tests\Katas.Queue.Tests.csproj", "{270C97DF-B4B4-48C7-B1E1-1B7741F56324}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Parity", "Parity", "{E5D370B7-5D03-41AB-A942-073639DC2B9F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Katas.Parity", "Katas.Parity\Katas.Parity.csproj", "{D7C546FA-07AC-4408-AACF-EE69A9D3AECE}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Katas.Parity", "Parity\Katas.Parity\Katas.Parity.csproj", "{D7C546FA-07AC-4408-AACF-EE69A9D3AECE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Katas.Parity.Tests", "Katas.Parity.Tests\Katas.Parity.Tests.csproj", "{29B98B4E-9E37-4FEB-8B2B-7E8F72361C68}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Katas.Parity.Tests", "Parity\Katas.Parity.Tests\Katas.Parity.Tests.csproj", "{29B98B4E-9E37-4FEB-8B2B-7E8F72361C68}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
