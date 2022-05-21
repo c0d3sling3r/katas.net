@@ -18,6 +18,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Katas.Parity", "Parity\Kata
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Katas.Parity.Tests", "Parity\Katas.Parity.Tests\Katas.Parity.Tests.csproj", "{29B98B4E-9E37-4FEB-8B2B-7E8F72361C68}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BinarySearch", "BinarySearch", "{D87B1706-DAD2-43E7-BAC7-366399C81D3F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Katas.BinarySearch", "BinarySearch\Katas.BinarySearch\Katas.BinarySearch.csproj", "{3E9565FB-6CEF-438E-9A6C-BE7DF3686986}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Katas.BinarySearch.Tests", "BinarySearch\Katas.BinarySearch.Tests\Katas.BinarySearch.Tests.csproj", "{F93FEBCC-661A-4092-8E2E-CE381270894B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,6 +36,8 @@ Global
 		{270C97DF-B4B4-48C7-B1E1-1B7741F56324} = {F8431AD0-16DF-45B6-9B60-DC58343EFF18}
 		{D7C546FA-07AC-4408-AACF-EE69A9D3AECE} = {E5D370B7-5D03-41AB-A942-073639DC2B9F}
 		{29B98B4E-9E37-4FEB-8B2B-7E8F72361C68} = {E5D370B7-5D03-41AB-A942-073639DC2B9F}
+		{3E9565FB-6CEF-438E-9A6C-BE7DF3686986} = {D87B1706-DAD2-43E7-BAC7-366399C81D3F}
+		{F93FEBCC-661A-4092-8E2E-CE381270894B} = {D87B1706-DAD2-43E7-BAC7-366399C81D3F}
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{F40064B1-7AFE-4E09-8473-135DFC398D64}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -56,5 +64,13 @@ Global
 		{29B98B4E-9E37-4FEB-8B2B-7E8F72361C68}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{29B98B4E-9E37-4FEB-8B2B-7E8F72361C68}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{29B98B4E-9E37-4FEB-8B2B-7E8F72361C68}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3E9565FB-6CEF-438E-9A6C-BE7DF3686986}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E9565FB-6CEF-438E-9A6C-BE7DF3686986}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E9565FB-6CEF-438E-9A6C-BE7DF3686986}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E9565FB-6CEF-438E-9A6C-BE7DF3686986}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F93FEBCC-661A-4092-8E2E-CE381270894B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F93FEBCC-661A-4092-8E2E-CE381270894B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F93FEBCC-661A-4092-8E2E-CE381270894B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F93FEBCC-661A-4092-8E2E-CE381270894B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

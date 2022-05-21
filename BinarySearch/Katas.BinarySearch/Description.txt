@@ -1,0 +1,10 @@
+﻿A binary search tree is a rooted binary tree in which the nodes are arrenged in total order in which the nodes with keys greater than any particular node is stored on the right sub-trees and the ones with equal to or less than are stored on the left sub-tree satisfying the binary search property.[9]: 298 [10]: 287 
+
+Binary search trees are also efficacious in sortings and search algorithms. However, the search complexity of a BST depends upon the order in which the nodes are inserted and deleted; since in worst case, successive operations in the binary search tree may lead to degeneracy and form a singly linked list (or "unbalanced tree") like structure, thus has the same worst-case complexity as a linked list.[11][9]: 299-302 
+
+Binary search trees are also a fundamental data structure used in construction of abstract data structures such as sets, multisets, and associative arrays.
+
+
+-- Searching
+Searching in a binary search tree for a specific key can be programmed recursively or iteratively.
+Searching begins by examining the root node. If the tree is {\displaystyle {\text{nil}}}{\displaystyle {\text{nil}}}, the key being searched for does not exist in the tree. Otherwise, if the key equals that of the root, the search is successful and the node is returned. If the key is less than that of the root, the search proceeds by examining the left subtree. Similarly, if the key is greater than that of the root, the search proceeds by examining the right subtree. This process is repeated until the key is found or the remaining subtree is {\displaystyle {\text{nil}}}{\displaystyle {\text{nil}}}. If the searched key is not found after a {\displaystyle {\text{nil}}}{\displaystyle {\text{nil}}} subtree is reached, then the key is not present in the tree.
