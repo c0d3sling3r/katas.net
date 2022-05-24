@@ -1,0 +1,7 @@
+﻿Breadth-first search (BFS) is an algorithm for searching a tree data structure for a node that satisfies a given property.
+It starts at the tree root and explores all nodes at the present depth prior to moving on to the nodes at the next depth level. Extra memory, usually a queue, 
+is needed to keep track of the child nodes that were encountered but not yet explored.
+
+This non-recursive implementation is similar to the non-recursive implementation of depth-first search, but differs from it in two ways:
+    1. it uses a queue (First In First Out) instead of a stack and
+    2. it checks whether a vertex has been explored before enqueueing the vertex rather than delaying this check until the vertex is dequeued from the queue.
