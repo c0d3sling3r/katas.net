@@ -1,5 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
+# 
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Stack", "Stack", "{B8E39487-F3A5-4FDB-91E9-468339871FDB}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Katas.Stack", "Stack\Katas.Stack\Katas.Stack.csproj", "{F40064B1-7AFE-4E09-8473-135DFC398D64}"
@@ -30,6 +31,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Katas.BreadthFirstSearch", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Katas.BreadthFirstSearch.Tests", "BreadthFirstSearch\Katas.BreadthFirstSearch.Tests\Katas.BreadthFirstSearch.Tests.csproj", "{690F1973-B253-4527-BFD1-D47336A193EB}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "QuickSort", "QuickSort", "{F9AFE519-09F1-470F-A469-D4BA45F5AFF2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Katas.QuickSort", "QuickSort\Katas.QuickSort\Katas.QuickSort.csproj", "{2FA04DE2-6763-4493-97BF-573C61B8CDBA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Katas.QuickSort.Tests", "QuickSort\Katas.QuickSort.Tests\Katas.QuickSort.Tests.csproj", "{4BBC8E3B-8F70-4B95-A152-F473DA62412D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -46,6 +53,8 @@ Global
 		{F93FEBCC-661A-4092-8E2E-CE381270894B} = {D87B1706-DAD2-43E7-BAC7-366399C81D3F}
 		{8D642A2E-4B60-44A4-9955-5391F42BA2B8} = {26F73CD0-9279-409E-BC87-C89E8E9D130A}
 		{690F1973-B253-4527-BFD1-D47336A193EB} = {26F73CD0-9279-409E-BC87-C89E8E9D130A}
+		{2FA04DE2-6763-4493-97BF-573C61B8CDBA} = {F9AFE519-09F1-470F-A469-D4BA45F5AFF2}
+		{4BBC8E3B-8F70-4B95-A152-F473DA62412D} = {F9AFE519-09F1-470F-A469-D4BA45F5AFF2}
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{F40064B1-7AFE-4E09-8473-135DFC398D64}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -88,5 +97,13 @@ Global
 		{690F1973-B253-4527-BFD1-D47336A193EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{690F1973-B253-4527-BFD1-D47336A193EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{690F1973-B253-4527-BFD1-D47336A193EB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2FA04DE2-6763-4493-97BF-573C61B8CDBA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2FA04DE2-6763-4493-97BF-573C61B8CDBA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2FA04DE2-6763-4493-97BF-573C61B8CDBA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2FA04DE2-6763-4493-97BF-573C61B8CDBA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4BBC8E3B-8F70-4B95-A152-F473DA62412D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4BBC8E3B-8F70-4B95-A152-F473DA62412D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4BBC8E3B-8F70-4B95-A152-F473DA62412D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4BBC8E3B-8F70-4B95-A152-F473DA62412D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
